@@ -1,5 +1,5 @@
 # Online-Portfolio
-Simple site containing various projects.
+Simple site for showcasing some of my projects.
 
 **View site here:**
 
