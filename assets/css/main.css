@@ -3291,6 +3291,11 @@ input, select, textarea {
 	}
 }
 
+.grid-centre{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
 .iframe-container {
 	overflow: hidden;
 	padding-top: 56.25%;
