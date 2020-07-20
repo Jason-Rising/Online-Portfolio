@@ -2135,7 +2135,10 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 0%;
+			-webkit-box-shadow: 12px 23px 49px -17px rgba(0,0,0,0.71);
+			-moz-box-shadow: 12px 23px 49px -17px rgba(0,0,0,0.71);
+			box-shadow: 12px 23px 49px -17px rgba(0,0,0,0.71);	
 		}
 
 			.image.avatar:before {
