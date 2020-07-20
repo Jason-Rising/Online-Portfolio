@@ -2597,10 +2597,11 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #7f8ac7;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.png");
-		background-position: top left,							top left;
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-position: center,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: cover,								fill; /*orignal 250%*/
+		background-size: cover,								250%; /*orignal 250%*/
+		object-fit: fill;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
